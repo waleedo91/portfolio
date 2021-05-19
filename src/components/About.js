@@ -22,24 +22,24 @@ export const About = () => {
 								My name is Waleed Saleh, I am 29 years old going on 30. Living
 								in Chicago, IL. I began my journey into Software Development
 								about 3 years and was very hard since I have been taking care of
-								my family and having to pay the bills around the house.But I
+								my family and having to pay the bills around the house. But I
 								followed my dream getting into the industry and getting the
 								party started and grasping the knowledge needed to get my foot
-								into the door.I started learning HTML, CSS and JavaScript
-								lightly while I was working as a Professional Truck
-								Driver.Before the Pandemic happened I got into Kenzie Academy
-								and took the next step to achieve my dream career.
+								into the door. I started learning HTML, CSS and JavaScript
+								lightly while I was working as a Professional Truck Driver.
+								Before the Pandemic happened I got into Kenzie Academy and took
+								the next step to achieve my dream career.
 							</p>
 							<p className='card-text'>
 								My hobbies consist of video games, some sports, technology and
 								now coding creating awesome projects. I enjoy learning new
 								things especially if it has to do with tech.I recently learned
 								how to build a pc on my own and upgrading my own pc to work even
-								more amazing than it did when first learning to code.Aside of
-								the current languages I have knowledge in , I am looking into
-								learning Java and C++to add to the library.I just can 't wait to
-								get into the tech world and use my knowledge in a professional
-								company.
+								more amazing than it did when first learning to code. Aside of
+								the current languages I have knowledge in, I am looking into
+								learning Java and C++ to add to the library. I just can 't wait
+								to get into the tech world and use my knowledge in a
+								professional company.
 							</p>
 							<p>
 								Some of the languages I currently have experience in are

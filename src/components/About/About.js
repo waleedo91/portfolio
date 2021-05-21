@@ -1,7 +1,7 @@
 import React from 'react';
 import Typical from 'react-typical';
-import myself from '../images/myself.jpg';
-import './pages.css';
+import myself from '../../images/myself.jpg';
+import './about.css';
 
 export const About = () => {
 	return (

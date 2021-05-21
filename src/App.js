@@ -2,9 +2,9 @@ import React, { Fragment } from 'react';
 import { Navigation } from './components/layout/Navigation';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Landing } from './components/layout/Landing';
-import { About } from './components/About';
-import { Contact } from './components/Contact';
-import { Certify } from './components/Certify';
+import { About } from './components/About/About';
+import { Contact } from './components/Contact/Contact';
+import { Certify } from './components/Certify/Certify';
 import './App.css';
 
 const App = () => {

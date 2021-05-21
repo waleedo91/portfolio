@@ -1,11 +1,20 @@
 import React from 'react';
-import FrontEnd from '../images/Saleh, Waleed.png';
-import FullStack from '../images/Waleed_Saleh_FULL STACK WEB DEVELOPMENT1024_1.jpg';
-import '../components/pages.css';
+import { Slideshow } from './Slideshow';
+import FullStack from '../../images/Waleed_Saleh_FULL STACK WEB DEVELOPMENT1024_1.jpg';
+import FrontEnd from '../../images/Saleh, Waleed.png';
+import NodeCertificate from '../../images/node-course.jpg';
+import './certify.css';
 
 export const Certify = () => {
 	return (
-		<div>
+		<Slideshow
+			interval={3000}
+			images={[FrontEnd, FullStack, NodeCertificate]}
+		/>
+	);
+};
+
+/* <div>
 			<h1>My Certificates!</h1>
 			<div className='certify'>
 				<div className='card' style={{ width: '18rem' }}>
@@ -28,6 +37,4 @@ export const Certify = () => {
 					</div>
 				</div>
 			</div>
-		</div>
-	);
-};
+		</div> */

@@ -13,25 +13,35 @@ export const Slideshow = ({ images = [], interval = 3000 }) => {
 		setThumbnail(images);
 		setSlideStyle({
 			backgroundImage: "url('" + images[current] + "')",
+			transition: '200ms',
+			left: 1,
 		});
 
 		if (current > 0) {
 			setPreviousSlide({
 				backgroundImage: "url('" + images[current - 1] + "')",
+				transition: '200ms',
+				left: 1,
 			});
 		} else {
 			setPreviousSlide({
 				backgroundImage: "url('" + images[images.length - 1] + "')",
+				transition: '200ms',
+				left: 1,
 			});
 		}
 
 		if (current === images.length - 1) {
 			setNextSlide({
 				backgroundImage: "url('" + images[0] + "')",
+				transition: '200ms',
+				left: 1,
 			});
 		} else {
 			setNextSlide({
 				backgroundImage: "url('" + images[current + 1] + "')",
+				transition: '200ms',
+				left: 1,
 			});
 		}
 

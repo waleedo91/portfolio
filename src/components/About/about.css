@@ -6,3 +6,19 @@
 .certify {
 	display: flex;
 }
+
+#contact-block {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contact {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	width: 0 auto;
+}
+
+.contact-info {
+	font-size: 30px;
+}

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Navigation = () => {
 	return (
-		<>
+		<div>
 			<nav class='navbar navbar-expand-lg navbar-dark bg-dark'>
 				<div class='container-fluid'>
 					<Link to='/about' className='navbar-brand'>
@@ -26,16 +26,11 @@ export const Navigation = () => {
 									Certifications
 								</Link>
 							</li>
-							<li className='nav-item dropdown'>
-								<Link className='nav-link' to='/contact'>
-									Contact Me
-								</Link>
-							</li>
 						</ul>
 					</div>
 				</div>
 			</nav>
-		</>
+		</div>
 	);
 
 	// 	<nav>

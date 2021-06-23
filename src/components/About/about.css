@@ -1,7 +1,6 @@
 .full-card {
 	max-width: 1000px;
 	max-height: 1000px;
-<<<<<<< HEAD
 	background: rgba(141, 141, 141, 0.658);
 	border-radius: 30px;
 	margin-top: 40px;
@@ -10,26 +9,24 @@
 .my-picture {
 	border-top-left-radius: 30px;
 	border-bottom-right-radius: 30px;
-=======
 }
 
-.certify {
+.page1 {
+	max-width: 650px;
+}
+
+.page2 {
+	max-width: 650px;
+}
+
+.resume-container {
 	display: flex;
-}
-
-#contact-block {
-	margin: 0 auto;
-	text-align: center;
-}
-
-.contact {
-	display: flex;
+	align-content: center;
 	justify-content: space-around;
-	list-style: none;
-	width: 0 auto;
+	margin-bottom: 10px;
 }
 
-.contact-info {
-	font-size: 30px;
->>>>>>> parent of 5ded3335... Still not finished but ready to deploy once resume has been added
+.resume-header {
+	text-align: center;
+	margin-top: 40px;
 }

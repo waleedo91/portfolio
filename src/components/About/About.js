@@ -1,6 +1,8 @@
 import React from 'react';
 import Typical from 'react-typical';
 import myself from '../../images/myself.jpg';
+import SoftwareDevResume1 from '../../images/SoftwareDevResume1.jpg';
+import SoftwareDevResume2 from '../../images/SoftwareDevResume2.jpg';
 import './about.css';
 
 export const About = () => {
@@ -10,6 +12,7 @@ export const About = () => {
 				<div className='row g-0'>
 					<div className='col-md-4'>
 						<img
+							className='my-picture'
 							style={{ maxWidth: '300px', maxHeight: '500px' }}
 							src={myself}
 							alt='creator'
@@ -90,8 +93,12 @@ export const About = () => {
 							</p>
 						</div>
 					</div>
-					<image/>
 				</div>
+			</div>
+			<h2 className='resume-header'>My Resume</h2>
+			<div className='resume-container'>
+				<img className='page1' src={SoftwareDevResume1} alt='Resume page 1' />
+				<img className='page2' src={SoftwareDevResume2} alt='Resume page 2' />
 			</div>
 		</div>
 	);

@@ -4,11 +4,11 @@ import './Landing.css';
 export const Landing = () => {
 	return (
 		<div>
-			<article class='wrapper'>
-				<h1 class='title'>Waleed Saleh</h1>
-				<div class='rotate'>
+			<article className='wrapper'>
+				<h1 className='title'>Waleed Saleh</h1>
+				<div className='rotate'>
 					I am a &nbsp;
-					<div class='myself'>
+					<div className='myself'>
 						<span>Developer</span>
 						<span>Gamer</span>
 						<span>Techie</span>

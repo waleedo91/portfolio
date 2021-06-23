@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	background: #fff;
 	overflow-y: scroll;
@@ -11,6 +12,8 @@ body {
 	width: 100%;
 }
 
+=======
+>>>>>>> parent of 5ded3335... Still not finished but ready to deploy once resume has been added
 .videos {
 	display: flex;
 	justify-content: space-around;
@@ -26,7 +29,7 @@ body {
 	margin-left: 100px;
 }
 
-.description {
+.hype-description {
 	max-width: 400px;
 	max-height: 500px;
 	/* border: 1px solid black; */
@@ -34,13 +37,11 @@ body {
 }
 
 .hypegames {
-	/* border: 1px solid black; */
-	margin-top: -50px;
+	border: 1px solid black;
 }
 
 .chatapp {
-	/* border: 1px solid black; */
-	margin-top: -50px;
+	border: 1px solid black;
 }
 
 .header {

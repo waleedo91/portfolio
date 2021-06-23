@@ -10,7 +10,6 @@ export const About = () => {
 				<div className='row g-0'>
 					<div className='col-md-4'>
 						<img
-							className='my-picture'
 							style={{ maxWidth: '300px', maxHeight: '500px' }}
 							src={myself}
 							alt='creator'

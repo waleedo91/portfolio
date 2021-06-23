@@ -9,6 +9,10 @@
 	margin: 0 auto;
 }
 
+.slideshow {
+	margin-left: 100px;
+}
+
 .hype-description {
 	max-width: 400px;
 	max-height: 500px;
@@ -26,4 +30,5 @@
 
 .header {
 	text-align: center;
+	margin-right: 100px;
 }

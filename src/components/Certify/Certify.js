@@ -12,10 +12,13 @@ export const Certify = () => {
 	return (
 		<div>
 			<h2 className='header'>Certificates I have received!</h2>
-			<CertifySlideShow
-				interval={3000}
-				images={[FrontEnd, FullStack, NodeCertificate]}
-			/>
+			<div className='slideshow-sec'>
+				<CertifySlideShow
+					className='slideshow'
+					interval={3000}
+					images={[FrontEnd, FullStack, NodeCertificate]}
+				/>
+			</div>
 			<h2 className='header'>Projects I am proud of!</h2>
 			<div className='videos'>
 				<div className='chatapp'>

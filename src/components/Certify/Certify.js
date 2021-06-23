@@ -1,15 +1,44 @@
 import React from 'react';
-import { Slideshow } from './Slideshow';
+import ReactPlayer from 'react-player';
+import { CertifySlideShow } from '../slideShow/CertifySlideShow';
 import FullStack from '../../images/Waleed_Saleh_FULL STACK WEB DEVELOPMENT1024_1.jpg';
 import FrontEnd from '../../images/Saleh, Waleed.png';
 import NodeCertificate from '../../images/node-course.jpg';
-import './certify.css';
+import chatapp from '../../videos/chatapp.mp4';
+import hypegames from '../../videos/hypegames.mp4';
+import './Certify.css';
 
 export const Certify = () => {
 	return (
-		<Slideshow
-			interval={3000}
-			images={[FrontEnd, FullStack, NodeCertificate]}
-		/>
+		<div>
+			<h2 className='header'>Certificates I have received!</h2>
+			<CertifySlideShow
+				interval={3000}
+				images={[FrontEnd, FullStack, NodeCertificate]}
+			/>
+			<h2 className='header'>Projects I am proud of!</h2>
+			<div className='videos'>
+				<div className='chatapp'>
+					<a className='projects' href='https://saleh-chat-app.herokuapp.com/'>
+						<ReactPlayer url={chatapp} playing={true} looping={true} />
+					</a>
+				</div>
+				<div className='hypegames'>
+					<a className='projects' href='https://hype-games.com/'>
+						<ReactPlayer url={hypegames} playing={true} looping={true} />
+					</a>
+					<p className='hype-description'>
+						Here we have a final group project from Kenzie. We used python and
+						JavaScript as the languages, Django as the Frame work. My job on
+						this project was to ensure all functions worked properly and
+						refactor them as well, CSS and ensuring repo was as clean as
+						possible and merges were done efficiently as well. I also worked on
+						a few of the functionality along side with the teammates such as the
+						favorites button, login, logout and signup functions. As well as the
+						database.
+					</p>
+				</div>
+			</div>
+		</div>
 	);
 };

@@ -1,0 +1,29 @@
+.videos {
+	display: flex;
+	justify-content: space-around;
+}
+
+.projects {
+	display: flex;
+	width: 320px;
+	margin: 0 auto;
+}
+
+.hype-description {
+	max-width: 400px;
+	max-height: 500px;
+	/* border: 1px solid black; */
+	margin-top: -80px;
+}
+
+.hypegames {
+	border: 1px solid black;
+}
+
+.chatapp {
+	border: 1px solid black;
+}
+
+.header {
+	text-align: center;
+}

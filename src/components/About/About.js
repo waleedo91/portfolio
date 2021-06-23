@@ -91,6 +91,7 @@ export const About = () => {
 							</p>
 						</div>
 					</div>
+					<image/>
 				</div>
 			</div>
 		</div>

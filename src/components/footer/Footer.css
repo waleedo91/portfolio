@@ -1,0 +1,19 @@
+.contact-block {
+	text-align: center;
+	width: 100%;
+	background: #343a40;
+	position: absolute;
+	bottom: 0;
+}
+
+.contact-info {
+	font-size: 30px;
+	margin-right: 100px;
+}
+
+.contact {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	width: 100%;
+}

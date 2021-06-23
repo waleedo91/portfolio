@@ -1,13 +1,11 @@
 import React from 'react';
 import Typical from 'react-typical';
 import myself from '../../images/myself.jpg';
-import { FaLinkedin, FaFacebook, FaGithub } from 'react-icons/fa';
-import { SiGmail } from 'react-icons/si';
 import './about.css';
 
 export const About = () => {
 	return (
-		<div className='about-container'>
+		<div>
 			<div className='card mb-3 full-card'>
 				<div className='row g-0'>
 					<div className='col-md-4'>
@@ -93,31 +91,6 @@ export const About = () => {
 							</p>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div className='contact-block'>
-				<h1 className='contact-header'>Contact Me!</h1>
-				<div className='links-container'>
-					<ul className='contact'>
-						<li id='wsaleh1991@gmail.com' class='contact-info'>
-							<SiGmail /> - wsaleh1991@gmail.com
-						</li>
-						<li id='linkedin' class='contact-info'>
-							<a href='https://www.linkedin.com/in/waleed-saleh-808b6514b/'>
-								<FaLinkedin />
-							</a>
-						</li>
-						<li id='facebook' class='contact-info'>
-							<a href='https://www.facebook.com/waleedo.91'>
-								<FaFacebook />
-							</a>
-						</li>
-						<li id='github' class='contact-info'>
-							<a href='https://github.com/waleedo91'>
-								<FaGithub />
-							</a>
-						</li>
-					</ul>
 				</div>
 			</div>
 		</div>

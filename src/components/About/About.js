@@ -7,7 +7,7 @@ import './about.css';
 
 export const About = () => {
 	return (
-		<div>
+		<div className='about-container'>
 			<div className='card mb-3 full-card'>
 				<div className='row g-0'>
 					<div className='col-md-4'>
@@ -95,28 +95,30 @@ export const About = () => {
 					</div>
 				</div>
 			</div>
-			<div id='contact-block'>
-				<h1 id='contact-header'>Contact Me!</h1>
-				<ul className='contact'>
-					<li id='wsaleh1991@gmail.com' class='contact-info'>
-						<SiGmail /> - wsaleh1991@gmail.com
-					</li>
-					<li id='linkedin' class='contact-info'>
-						<a href='https://www.linkedin.com/in/waleed-saleh-808b6514b/'>
-							<FaLinkedin />
-						</a>
-					</li>
-					<li id='facebook' class='contact-info'>
-						<a href='https://www.facebook.com/waleedo.91'>
-							<FaFacebook />
-						</a>
-					</li>
-					<li id='github' class='contact-info'>
-						<a href='https://github.com/waleedo91'>
-							<FaGithub />
-						</a>
-					</li>
-				</ul>
+			<div className='contact-block'>
+				<h1 className='contact-header'>Contact Me!</h1>
+				<div className='links-container'>
+					<ul className='contact'>
+						<li id='wsaleh1991@gmail.com' class='contact-info'>
+							<SiGmail /> - wsaleh1991@gmail.com
+						</li>
+						<li id='linkedin' class='contact-info'>
+							<a href='https://www.linkedin.com/in/waleed-saleh-808b6514b/'>
+								<FaLinkedin />
+							</a>
+						</li>
+						<li id='facebook' class='contact-info'>
+							<a href='https://www.facebook.com/waleedo.91'>
+								<FaFacebook />
+							</a>
+						</li>
+						<li id='github' class='contact-info'>
+							<a href='https://github.com/waleedo91'>
+								<FaGithub />
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	);

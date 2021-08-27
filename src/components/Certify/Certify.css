@@ -1,64 +1,64 @@
 body {
-	overflow-y: scroll;
-	animation: scroll 120s linear infinite;
-	background: url('https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80'),
-		#111111;
-	color: #eee;
-	min-width: 360px;
-	width: 100%;
-	perspective: 1000px;
-	perspective-origin: 50% 50%;
+  overflow-y: scroll;
+  animation: scroll 120s linear infinite;
+  background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"),
+    #111111;
+  color: #eee;
+  min-width: 360px;
+  width: 100%;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
 }
 
 .videos {
-	display: flex;
-	flex-direction: row;
-	width: 100%;
-	margin-top: 10px;
-	background: rgba(141, 141, 141, 0.658);
-	border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 10px;
+  background: rgba(141, 141, 141, 0.658);
+  border-radius: 10px;
 }
 
 .projects {
-	display: flex;
-	width: 320px;
-	margin: 0 auto;
+  display: flex;
+  width: 320px;
+  margin: 0 auto;
 }
 
 .slideshow {
-	margin-left: 100px;
+  margin-left: 100px;
 }
 
 .hype-description {
-	margin-top: -100px;
+  margin-top: -100px;
 }
 
 .hypegames {
-	padding: 25px;
+  padding: 25px;
 }
 .chatapp {
-	padding: 25px;
+  padding: 25px;
 }
 
 .header {
-	text-align: center;
-	margin-right: 100px;
+  text-align: center;
+  margin-right: 100px;
 }
 
 .project-container {
-	margin-top: 50px;
-	/* border: 1px solid black; */
-	margin-bottom: 20px;
+  margin-top: 50px;
+  /* border: 1px solid black; */
+  margin-bottom: 20px;
 }
 
 @keyframes scroll {
-	100% {
-		background-position: 0px -3000px;
-	}
+  100% {
+    background-position: 0px -3000px;
+  }
 }
 
 @media (prefers-reduced-motion) {
-	.background {
-		animation: scroll 200s linear infinite;
-	}
+  .background {
+    animation: scroll 200s linear infinite;
+  }
 }

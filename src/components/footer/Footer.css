@@ -1,25 +1,25 @@
 .contact-block {
-	text-align: center;
-	width: 100%;
-	background: #343a40;
-	position: sticky;
-	bottom: 0;
-	height: 80px;
-	color: white;
+  text-align: center;
+  width: 100%;
+  background: #343a40;
+  position: sticky;
+  bottom: 0;
+  height: 80px;
+  color: white;
 }
 
 .contact-info {
-	font-size: 15px;
-	margin-right: 100px;
+  font-size: 15px;
+  margin-right: 100px;
 }
 
 .contact-header {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 .contact {
-	display: flex;
-	list-style: none;
-	justify-content: space-between;
-	width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 100%;
 }
